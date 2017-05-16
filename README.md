@@ -1,4 +1,4 @@
 # internetingIsHard
 This is my attempt at following the [interneting is hard](https://internetingishard.com/) tutorials.
 
-I'm currently on HTML & CSS No 5 (CSS BOX MODEL) - Changing box behavior
+I'm currently on HTML & CSS No 6 (CSS SELECTORS)
