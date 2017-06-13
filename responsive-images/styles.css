@@ -40,8 +40,16 @@
 .illustration img {
   width: 100%;
   display: block;
-} /* Is this not working? Should I fix vertical alignment? It's smushed up against
-the signup part. */
+}
+.header {
+  height: auto;
+  justify-content: inherit;
+  align-items: inherit;
+}
+.photo img {
+  width: 100%;
+  display: block;
+}
 
 /* Mobile styles */
 @media only screen and (max-width: 400px) {
