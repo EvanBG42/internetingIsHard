@@ -50,7 +50,8 @@ body {
   flex-wrap: wrap;
 }
 
-.form-row input[type='text'] {
+.form-row input[type='text'],
+.form-row input[type='email'] {
   background-color: #FFFFFF;
   border: 1px solid #D6D9DC;
   border-radius: 3px;
@@ -58,7 +59,12 @@ body {
   padding: 7px;
   font-size: 14px;
 }
-
+.form-row input[type='text']:invalid,
+.form-row input[type='email']:invalid {
+  border: 1px solid #D55C5F;
+  color: #D55C5F;
+  box-shadow: none; /* something about firefox idk */
+}
 .form-row label {
   margin-bottom: 15px;
 }
@@ -73,7 +79,11 @@ body {
     align-items: flex-start;
     margin-bottom: 20px;
   }
-  .form-row input[type='text'] {
+  .form-row input[type='text'],
+  .form-row input[type='email'],
+  .form-row select,
+  .form-row textarea {
+    background-color: #FFFFFF;
     width: 250px;
     height: initial;
   }
