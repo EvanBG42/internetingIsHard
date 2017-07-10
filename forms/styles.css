@@ -89,6 +89,12 @@ body {
   float: left;
 }
 
+.form-row select {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px; /* IIH says this doesn't work in chrome, it does afaik */
+  /* -webkit-appearance: none; */ /*This would fix it, hackily */
+}
 @media only screen and (min-width: 700px) {
   .speaker-form-header,
   .speaker-form {
